@@ -1,4 +1,4 @@
-# 🩺 MedQDx: Diagnose Like a Doctor 🩺
+#  MedQDx: Diagnose Like a Doctor 
 
 MedQDx is a cutting-edge benchmark that simulates realistic, partial clinical scenarios to evaluate large language models’ diagnostic strategies in reaching a diagnosis through adaptive, question-driven reasoning.
 
