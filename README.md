@@ -1,4 +1,4 @@
-# 🩺 MedQDx: Think Like a Doctor 🩺
+# 🩺 MedQDx: Diagnose Like a Doctor 🩺
 
 MedQDx is a cutting-edge benchmark designed to evaluate large language models (LLMs) in **interactive**, **uncertain** diagnostic scenarios. By simulating physician–patient dialogues with **partial clinical information**, MedQDx measures an LLM’s ability to:
 
