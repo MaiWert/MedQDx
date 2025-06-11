@@ -74,9 +74,6 @@ Large language models (LLMs) have demonstrated impressive capabilities in medica
 By requiring multi-turn doctor–patient interactions, we push AI from passive responders to active clinical reasoning partners.
 
 
-*  **Zero-Shot Diagnostic Accuracy (ZDA)**
-*  **Mean Question-based Diagnostic Similarity (MQD)**
-*  *  **Mean of Max Similarity Across Row (MMS)**
 
 ##  Project Structure
 
@@ -117,7 +114,7 @@ Simulate doctor–patient dialogues using different LLM personas. Collect questi
 
 ###  Benchmark Evaluation
 
-Assess the AI diagnostician’s performance by calculating ZDA, similarity metrics, and visualizing results across symptom completeness tiers.
+Assess the AI diagnostician’s performance by calculating ZDA, Mean Question-based Diagnostic Similarity (MQD), Mean of Max Similarity Across Row (MMS) and visualizing results across symptom completeness tiers.
 
 > 🔗 [Evaluate](./Evaluation/Evaluation%20README.md)
 
