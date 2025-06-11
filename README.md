@@ -7,7 +7,7 @@ Welcome to the **MedQDx** project! This repository contains exploratory data ana
 We use the [Symptom‑Disease Prediction Dataset (SDPD)](https://data.mendeley.com/datasets/dv5z3v2xyd/1) as our source:
 
 * Contains patient records mapping sets of symptoms to diagnoses (prognoses).
-* Original CSV file: `symbipredict_2022.csv` (or similar) loaded in the notebook.
+* Original CSV file: `symbipredict_2022.csv`.
 
 ## 💡 Project Overview
 
