@@ -122,8 +122,6 @@ Assess the AI diagnostician’s performance by calculating ZDA, similarity metri
 > 🔗 [Evaluate](./Evaluation/Evaluation%20README.md)
 
 
----
-
 ##  Getting Started
 
 1. **Clone the repository**
@@ -150,6 +148,6 @@ Assess the AI diagnostician’s performance by calculating ZDA, similarity metri
    *  `Benchmark Creation/MedQDx_Benchmark_Creation.ipynb`
    *  `Evaluation/MedQDx_Evaluation.ipynb`
 
-
+---
 
 *✨ MedQDx © 2025 Mai Werthaim & Maya Kimhi*
