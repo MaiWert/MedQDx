@@ -51,20 +51,20 @@ Diagnostic cases across three rounds, detailing each round’s questions, answer
 
 ##  Table of Contents
 
-1. [💡 Introduction](#💡-introduction)
-2. [🗂️ Project Structure](#🗂️-project-structure)
-3. [⚙️ Getting Started](#⚙️-getting-started)
-4. [📚 Submodule Overviews](#📚-submodule-overviews)
+1. [ Introduction](#introduction)
+2. [ Project Structure](#project-structure)
+3. [ Getting Started](#getting-started)
+4. [ Submodule Overviews](#submodule-overviews)
 
-   * [🧪 EDA & Baseline](#🧪-eda--baseline)
-   * [🎬 Benchmark Creation](#🎬-benchmark-creation)
-   * [📊 Evaluation](#📊-evaluation)
-5. [📈 Presentation](#📈-presentation)
-6. [🤝 Contributing](#🤝-contributing)
-
+   * [ EDA & Baseline](#eda--baseline)
+   * [ Benchmark Creation](#benchmark-creation)
+   * [ Evaluation](#evaluation)
+5. [ Presentation](#presentation)
 
 
-## 💡 Introduction
+
+
+##  Introduction
 Patients rarely present a complete clinical picture at first, so physicians must engage in dynamic, targeted questioning to uncover critical details. The ability to conduct an adaptive dialogue—asking the right follow-up questions at each step—is therefore essential for high-quality diagnostic reasoning and treatment planning.
 
 Large language models (LLMs) have demonstrated impressive capabilities in medical natural language understanding and generation, and are increasingly being integrated as diagnostic support tools in clinical workflows. However, existing benchmarks typically evaluate LLMs on fully revealed patient cases, without measuring their capacity for conducting strategic inquiry under partial clinical picture.
@@ -78,7 +78,7 @@ By requiring multi-turn doctor–patient interactions, we push AI from passive r
 *  **Mean Question-based Diagnostic Similarity (MQD)**
 *  *  **Mean of Max Similarity Across Row (MMS)**
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 MedQDx/                                  
@@ -101,7 +101,7 @@ MedQDx/
 ```
 
 
-## ⚙️ Getting Started
+##  Getting Started
 
 1. **Clone the repository**
 
@@ -123,41 +123,31 @@ MedQDx/
    ```
 4. **Launch notebooks**
 
-   * 🧪 `EDA & Baseline/MedQDx__EDA_and_Baseline.ipynb`
-   * 🎬 `Benchmark Creation/MedQDx_Benchmark_Creation.ipynb`
-   * 📊 `Evaluation/MedQDx_Evaluation.ipynb`
+   *  `EDA & Baseline/MedQDx__EDA_and_Baseline.ipynb`
+   *  `Benchmark Creation/MedQDx_Benchmark_Creation.ipynb`
+   *  `Evaluation/MedQDx_Evaluation.ipynb`
 
 
 
-## 📚 Submodule Overviews
+##  Submodule Overviews
 
-### 🧪 EDA & Baseline
+###  EDA & Baseline
 
 Dive into the Symptom–Disease Prediction Dataset (SDPD) with cleaning, exploratory analysis, and baseline patient case generation. Covers 100%, 80%, and 50% symptom reveals with Jaccard analysis.
 
 > 🔗 [Explore](./EDA%20and%20Baseline/EDA%20%26%20Baseline%20README.md)
 
-### 🎬 Benchmark Creation
+###  Benchmark Creation
 
 Simulate doctor–patient dialogues using different LLM personas. Collect questions, answers, and diagnoses for each partial case and export detailed conversation logs.
 
 > 🔗 [Simulate](./Benchmark%20Creation/Benchmark%20Creation%20README.md)
 
-### 📊 Evaluation
+###  Evaluation
 
 Assess the AI diagnostician’s performance by calculating ZDA, similarity metrics, and visualizing results across symptom completeness tiers.
 
 > 🔗 [Evaluate](./Evaluation/Evaluation%20README.md)
-
-
-## 🤝 Contributing
-
-Your ideas make MedQDx better! Follow these steps to contribute:
-
-1. 🔀 Fork the repo
-2. 🌱 Create a branch: `git checkout -b feature/your-awesome-idea`
-3. 💾 Commit: `git commit -m "Add amazing feature"`
-4. 🔄 Push & PR: `git push origin feature/your-awesome-idea`
 
 
 ---
