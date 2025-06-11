@@ -47,6 +47,8 @@ Diagnostic cases across three rounds, detailing each round’s questions, answer
 | `Diagnosis_3`   | The doctor’s third diagnosis (after Answer_3)         |
 | `Similarity_3`   | Cosine similarity between Diagnosis_3 and the prognosis (ground-truth disease)        |
 
+
+
 ##  Table of Contents
 
 1. [💡 Introduction](#💡-introduction)
