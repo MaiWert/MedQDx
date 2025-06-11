@@ -20,7 +20,7 @@ MedQDx is a cutting-edge benchmark designed to evaluate large language models (L
    * [📊 Evaluation](#📊-evaluation)
 5. [📈 Presentation](#📈-presentation)
 6. [🤝 Contributing](#🤝-contributing)
-7. [📜 License](#📜-license)
+
 
 
 ## 💡 Introduction
