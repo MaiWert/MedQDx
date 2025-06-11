@@ -1,4 +1,4 @@
-# 🎯 MedQDx Benchmark Creation
+# MedQDx: Benchmark Creation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](#)
 
