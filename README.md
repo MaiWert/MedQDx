@@ -6,7 +6,6 @@ MedQDx is a cutting-edge benchmark designed to evaluate large language models (L
 * 🔄 Adapt its line of inquiry
 * 🎯 Arrive at accurate diagnoses under uncertainty
 
----
 
 ## 📖 Table of Contents
 
@@ -22,7 +21,6 @@ MedQDx is a cutting-edge benchmark designed to evaluate large language models (L
 6. [🤝 Contributing](#🤝-contributing)
 7. [📜 License](#📜-license)
 
----
 
 ## 💡 Introduction
 
@@ -33,13 +31,12 @@ Patients rarely present a complete clinical picture initially. Physicians must c
 
 By requiring multi-turn doctor–patient interactions, we push AI from passive responders to active clinical reasoning partners.
 
----
 
 ## 🗂️ Project Structure
 
 ```bash
 MedQDx/                                  # 🏠 Root folder
-├── EDA & Baseline/                       # 🧪 Data exploration & baseline case generation
+├── EDA and Baseline/                     # 🧪 Data exploration & baseline case generation
 │   ├── 📄 EDA & Baseline README.md
 │   └── 📓 MedQDx__EDA_and_Baseline.ipynb
 ├── Benchmark Creation/                   # 🎬 Simulate doc–patient dialogues
@@ -55,7 +52,6 @@ MedQDx/                                  # 🏠 Root folder
 └── 📘 README.md                           # ← You are here!
 ```
 
----
 
 ## ⚙️ Getting Started
 
@@ -83,7 +79,7 @@ MedQDx/                                  # 🏠 Root folder
    * 🎬 `Benchmark Creation/MedQDx_Benchmark_Creation.ipynb`
    * 📊 `Evaluation/MedQDx_Evaluation.ipynb`
 
----
+
 
 ## 📚 Submodule Overviews
 
@@ -91,21 +87,21 @@ MedQDx/                                  # 🏠 Root folder
 
 Dive into the Symptom–Disease Prediction Dataset (SDPD) with cleaning, exploratory analysis, and baseline patient case generation. Covers 100%, 80%, and 50% symptom reveals with Jaccard analysis.
 
-> 🔗 [Explore](./EDA%20&%20Baseline/README.md)
+> 🔗 [Explore](./EDA%20and%20Baseline/EDA%20%26%20Baseline%20README.md)
 
 ### 🎬 Benchmark Creation
 
 Simulate doctor–patient dialogues using different LLM personas. Collect questions, answers, and diagnoses for each partial case and export detailed conversation logs.
 
-> 🔗 [Simulate](./Benchmark%20Creation/README.md)
+> 🔗 [Simulate](./Benchmark%20Creation/Benchmark%20Creation%20README.md)
 
 ### 📊 Evaluation
 
 Assess the AI diagnostician’s performance by calculating ZDA, similarity metrics, and visualizing results across symptom completeness tiers.
 
-> 🔗 [Evaluate](./Evaluation/README.md)
+> 🔗 [Evaluate](./Evaluation/Evaluation%20README.md)
 
----
+
 
 ## 📈 Presentation
 
@@ -113,7 +109,7 @@ Showcase MedQDx’s journey in a dynamic slide deck:
 
 > 📥 [Download Slides](./MedQDx%20-%20Final%20Presentation.pdf)
 
----
+
 
 ## 🤝 Contributing
 
@@ -124,7 +120,5 @@ Your ideas make MedQDx better! Follow these steps to contribute:
 3. 💾 Commit: `git commit -m "Add amazing feature"`
 4. 🔄 Push & PR: `git push origin feature/your-awesome-idea`
 
----
 
 *✨ MedQDx © 2025 Mai Werthaim & Maya Kimhi*
-
