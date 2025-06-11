@@ -102,15 +102,6 @@ Assess the AI diagnostician’s performance by calculating ZDA, similarity metri
 > 🔗 [Evaluate](./Evaluation/Evaluation%20README.md)
 
 
-
-## 📈 Presentation
-
-Showcase MedQDx’s journey in a dynamic slide deck:
-
-> 📥 [Download Slides](./MedQDx%20-%20Final%20Presentation.pdf)
-
-
-
 ## 🤝 Contributing
 
 Your ideas make MedQDx better! Follow these steps to contribute:
@@ -120,5 +111,7 @@ Your ideas make MedQDx better! Follow these steps to contribute:
 3. 💾 Commit: `git commit -m "Add amazing feature"`
 4. 🔄 Push & PR: `git push origin feature/your-awesome-idea`
 
+
+---
 
 *✨ MedQDx © 2025 Mai Werthaim & Maya Kimhi*
