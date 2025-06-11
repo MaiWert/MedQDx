@@ -58,7 +58,7 @@ Diagnostic cases across three rounds, detailing each round’s questions, answer
 
    * [ EDA & Baseline](#eda--baseline)
    * [ Benchmark Creation](#benchmark-creation)
-   * [ Evaluation](#evaluation)
+   * [ Benchmark Evaluation](#benchmark-evaluation)
 5. [ Presentation](#presentation)
 
 
@@ -143,7 +143,7 @@ Simulate doctor–patient dialogues using different LLM personas. Collect questi
 
 > 🔗 [Simulate](./Benchmark%20Creation/Benchmark%20Creation%20README.md)
 
-###  Evaluation
+###  Benchmark Evaluation
 
 Assess the AI diagnostician’s performance by calculating ZDA, similarity metrics, and visualizing results across symptom completeness tiers.
 
