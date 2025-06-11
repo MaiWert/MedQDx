@@ -8,7 +8,7 @@ MedQDx is a cutting-edge benchmark that simulates realistic, partial clinical sc
 ### Raw Data - [Symptom‑Disease Prediction Dataset (SDPD)](https://data.mendeley.com/datasets/dv5z3v2xyd/1).
 
 The Symptom-Disease Prediction Dataset (SDPD) is a comprehensive collection of structured data linking symptoms to various diseases, meticulously curated to facilitate research and development in predictive healthcare analytics. This dataset provides a comprehensive collection of disease names and associated symptoms, encoded in a one-hot manner.
-**Size:** 2564 rows | 400 symptoms | 133 unique diseases
+* Size: 4961 rows | 132 symptoms | 41 unique diseases
 
 Each row in the dataset represents a single instance, where it can be 0/1 for each disease:
 * 1 indicates the symptom is relevant to the disease case, 0 implies no relevance.
