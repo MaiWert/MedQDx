@@ -39,18 +39,19 @@ By requiring multi-turn doctor–patient interactions, we push AI from passive r
 MedQDx/                                  # 🏠 Root folder
 ├── EDA and Baseline/                     # 🧪 Data exploration & baseline case generation
 │   ├── 📄 EDA & Baseline README.md
-│   ├── 📓 MedQDx__EDA_and_Baseline.ipynb
-│   └── 📊 Patient cases.csv
+│   ├──  MedQDx__EDA_and_Baseline.ipynb
+│   └──  Patient cases.csv
 ├── Benchmark Creation/                   # 🎬 Simulate doc–patient dialogues
 │   ├── 📄 Benchmark Creation README.md
-│   ├── 📓 MedQDx_Benchmark_Creation.ipynb
-│   └── 📊 MedQDx_Benchmark.csv
-├── Evaluation/                           # 📊 Diagnostic performance evaluation
+│   ├──  MedQDx_Benchmark_Creation.ipynb
+│   └──  MedQDx_Benchmark.csv
+├── Benchmark Evaluation/                           # 📊 Diagnostic performance evaluation
 │   ├── 📄 Evaluation README.md
-│   └── 📓 MedQDx_Evaluation.ipynb
-├── 📊 MedQDx - Final Presentation.pdf
-├── 📈 MedQDx - Interim Presentation.pdf
-├── 📝 MedQDx - Project proposal.pdf
+│   └──  MedQDx_Evaluation.ipynb
+├── Presentations/
+│   ├──  MedQDx - Final Presentation.pdf
+│   ├──  MedQDx - Interim Presentation.pdf
+│   └──  MedQDx - Project proposal.pdf
 └── 📘 README.md                           # ← You are here!
 ```
 
