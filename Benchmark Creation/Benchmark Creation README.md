@@ -104,15 +104,3 @@ An interactive diagnostic benchmark workflow using two Large Language Models (LL
 
 * **`results.csv`**: Raw data with predictions, similarity scores, and correctness flags.
 * **Summary table**: Displayed in‑notebook (e.g., ZDA for each coverage level).
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Please fork the repo and open a pull request.
-
----
-
-## 📜 License
-
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
