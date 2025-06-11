@@ -4,13 +4,13 @@ Welcome to the **MedQDx** project! This repository contains exploratory data ana
 
 ## 📚 Dataset
 
-We use the [Symptom‑Disease Prediction Dataset (SDPD)](https://data.mendeley.com/datasets/dv5z3v2xyd/1)
-The Symptom-Disease Prediction Dataset (SDPD) is a comprehensive collection of structured data linking symptoms to various diseases, meticulously curated to facilitate research and development in predictive healthcare analytics.
-This dataset provides a comprehensive collection of disease names and associated symptoms, encoded in a one-hot manner.
-Each row in the dataset represents a single instance.
-Each symptom can be 0/1 for each disease, where:
-1 indicates the symptom is relevant to the disease
-0 implies no relevance
+We use the [Symptom‑Disease Prediction Dataset (SDPD)](https://data.mendeley.com/datasets/dv5z3v2xyd/1).
+
+The Symptom-Disease Prediction Dataset (SDPD) is a comprehensive collection of structured data linking symptoms to various diseases, meticulously curated to facilitate research and development in predictive healthcare analytics. This dataset provides a comprehensive collection of disease names and associated symptoms, encoded in a one-hot manner.
+
+Each row in the dataset represents a single instance where it can be 0/1 for each disease:
+* 1 indicates the symptom is relevant to the disease
+* 0 implies no relevance
 
 * Contains patient records mapping sets of symptoms to diagnoses (prognoses).
 * Original CSV file: `symbipredict_2022.csv`.
