@@ -1,14 +1,10 @@
 # 🩺 MedQDx: Diagnose Like a Doctor 🩺
 
-MedQDx is a cutting-edge benchmark designed to evaluate large language models (LLMs) in **interactive**, **uncertain** diagnostic scenarios. By simulating physician–patient dialogues with **partial clinical information**, MedQDx measures an LLM’s ability to:
-
-* 🔎 Ask targeted questions
-* 🔄 Adapt its line of inquiry
-* 🎯 Arrive at accurate diagnoses under uncertainty
+MedQDx is a cutting-edge benchmark that simulates realistic, partial clinical scenarios to evaluate large language models’ diagnostic strategies in reaching a diagnosis through adaptive, question-driven reasoning.
 
 ![image](https://github.com/user-attachments/assets/0a458462-814e-4504-8a66-ed0afd5f4a19)
 
-## 📖 Table of Contents
+##  Table of Contents
 
 1. [💡 Introduction](#💡-introduction)
 2. [🗂️ Project Structure](#🗂️-project-structure)
@@ -24,28 +20,32 @@ MedQDx is a cutting-edge benchmark designed to evaluate large language models (L
 
 
 ## 💡 Introduction
+Patients rarely present a complete clinical picture at first, so physicians must engage in dynamic, targeted questioning to uncover critical details. The ability to conduct an adaptive dialogue—asking the right follow-up questions at each step—is therefore essential for high-quality diagnostic reasoning and treatment planning.
 
-Patients rarely present a complete clinical picture initially. Physicians must conduct **dynamic dialogues**, asking the right questions to uncover missing information and ensure **high-quality diagnosis**. MedQDx addresses this gap by simulating partial patient cases (100%, 80%, 50% symptom coverage) and evaluating an LLM’s:
+Large language models (LLMs) have demonstrated impressive capabilities in medical natural language understanding and generation, and are increasingly being integrated as diagnostic support tools in clinical workflows. However, existing benchmarks typically evaluate LLMs on fully revealed patient cases, without measuring their capacity for conducting strategic inquiry under partial clinical picture.
 
-* 🏅 **Zero-Shot Diagnostic Accuracy (ZDA)**
-* 📏 **Mean Diagnostic Similarity**
+**MedQDx** addresses this gap by simulating realistic diagnostic uncertainty through an interactive, multi-round question-and-answer format. In MedQDx, an LLM “doctor” must iteratively question an LLM “patient” using only partial case information (50% of the data) and make a diagnosis after each round. This benchmark enables robust evaluation of an LLM’s ability to adapt its questioning strategy, refine its hypotheses, and ultimately align its predictions with the ground-truth diagnosis.  
 
 By requiring multi-turn doctor–patient interactions, we push AI from passive responders to active clinical reasoning partners.
 
 
+*  **Zero-Shot Diagnostic Accuracy (ZDA)**
+*  **Mean Question-based Diagnostic Similarity (MQD)**
+*  *  **Mean of Max Similarity Across Row (MMS)**
+
 ## 🗂️ Project Structure
 
 ```bash
-MedQDx/                                  # 🏠 Root folder
-├── EDA and Baseline/                     # 🧪 Data exploration & baseline case generation
+MedQDx/                                  
+├── EDA and Baseline/                     
 │   ├── 📄 EDA & Baseline README.md
 │   ├──  MedQDx__EDA_and_Baseline.ipynb
 │   └──  Patient cases.csv
-├── Benchmark Creation/                   # 🎬 Simulate doc–patient dialogues
+├── Benchmark Creation/                   
 │   ├── 📄 Benchmark Creation README.md
 │   ├──  MedQDx_Benchmark_Creation.ipynb
 │   └──  MedQDx_Benchmark.csv
-├── Benchmark Evaluation/                           # 📊 Diagnostic performance evaluation
+├── Benchmark Evaluation/                          
 │   ├── 📄 Evaluation README.md
 │   └──  MedQDx_Evaluation.ipynb
 ├── Presentations/
