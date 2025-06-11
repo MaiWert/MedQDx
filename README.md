@@ -53,12 +53,12 @@ Diagnostic cases across three rounds, detailing each round’s questions, answer
 
 1. [ Introduction](#introduction)
 2. [ Project Structure](#project-structure)
-3. [ Getting Started](#getting-started)
-4. [ Submodule Overviews](#submodule-overviews)
+3. [ Submodule Overviews](#submodule-overviews)
 
    * [ EDA & Baseline](#eda--baseline)
    * [ Benchmark Creation](#benchmark-creation)
    * [ Benchmark Evaluation](#benchmark-evaluation)
+4. [ Getting Started](#getting-started)
 5. [ Presentation](#presentation)
 
 
@@ -101,6 +101,29 @@ MedQDx/
 ```
 
 
+##  Submodule Overviews
+
+###  EDA & Baseline
+
+Dive into the Symptom–Disease Prediction Dataset (SDPD) with cleaning, exploratory analysis, and baseline patient case generation. Covers 100%, 80%, and 50% symptom reveals with Jaccard analysis.
+
+> 🔗 [Explore](./EDA%20and%20Baseline/EDA%20%26%20Baseline%20README.md)
+
+###  Benchmark Creation
+
+Simulate doctor–patient dialogues using different LLM personas. Collect questions, answers, and diagnoses for each partial case and export detailed conversation logs.
+
+> 🔗 [Simulate](./Benchmark%20Creation/Benchmark%20Creation%20README.md)
+
+###  Benchmark Evaluation
+
+Assess the AI diagnostician’s performance by calculating ZDA, similarity metrics, and visualizing results across symptom completeness tiers.
+
+> 🔗 [Evaluate](./Evaluation/Evaluation%20README.md)
+
+
+---
+
 ##  Getting Started
 
 1. **Clone the repository**
@@ -128,28 +151,5 @@ MedQDx/
    *  `Evaluation/MedQDx_Evaluation.ipynb`
 
 
-
-##  Submodule Overviews
-
-###  EDA & Baseline
-
-Dive into the Symptom–Disease Prediction Dataset (SDPD) with cleaning, exploratory analysis, and baseline patient case generation. Covers 100%, 80%, and 50% symptom reveals with Jaccard analysis.
-
-> 🔗 [Explore](./EDA%20and%20Baseline/EDA%20%26%20Baseline%20README.md)
-
-###  Benchmark Creation
-
-Simulate doctor–patient dialogues using different LLM personas. Collect questions, answers, and diagnoses for each partial case and export detailed conversation logs.
-
-> 🔗 [Simulate](./Benchmark%20Creation/Benchmark%20Creation%20README.md)
-
-###  Benchmark Evaluation
-
-Assess the AI diagnostician’s performance by calculating ZDA, similarity metrics, and visualizing results across symptom completeness tiers.
-
-> 🔗 [Evaluate](./Evaluation/Evaluation%20README.md)
-
-
----
 
 *✨ MedQDx © 2025 Mai Werthaim & Maya Kimhi*
