@@ -3,7 +3,8 @@
 MedQDx is a cutting-edge benchmark that simulates realistic, partial clinical scenarios to evaluate large language models’ diagnostic strategies in reaching a diagnosis through adaptive, question-driven reasoning.
 
 ![image](https://github.com/user-attachments/assets/0a458462-814e-4504-8a66-ed0afd5f4a19)
-![image](https://github.com/user-attachments/assets/95500231-39a5-4e3f-bfa6-3f2c2dbcf3b7)
+![image](https://github.com/user-attachments/assets/a4278d45-781e-4022-9c2f-cf50c0549947)
+
 
 ##  Table of Contents
 
