@@ -2,7 +2,7 @@
 
 This section contains exploratory data analysis (EDA), baseline case generation, and evaluation for symptom‑disease prediction.
 
-## 📚 Dataset
+##  Dataset
 
 We use the [Symptom‑Disease Prediction Dataset (SDPD)](https://data.mendeley.com/datasets/dv5z3v2xyd/1).
 
@@ -16,7 +16,7 @@ Each row in the dataset represents a single instance, where it can be 0/1 for ea
 * Original CSV file: `symbipredict_2022.csv`.
 * Size: 4961 rows | 132 symptoms | 41 unique diseases
 
-## 💡 Project Overview
+##  Project Overview
 
 The Jupyter notebook `MedQDx__EDA_and_Baseline.ipynb` covers:
 
@@ -42,7 +42,7 @@ The Jupyter notebook `MedQDx__EDA_and_Baseline.ipynb` covers:
    * Computes the overlap between the original symptoms and each case via Jaccard similarity.
    * Reports average overlap and the percentage of cases respecting the expected confidence gradient (`100% ≥ 80% ≥ 50%`).
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone this repository
 
@@ -91,7 +91,7 @@ Launch Jupyter Lab or Notebook and execute all cells:
 jupyter notebook MedQDx__EDA_and_Baseline.ipynb
 ```
 
-## 📝 Outputs
+##  Outputs
 
 * **EDA results:** displayed inline charts and tables in the notebook.
 * **Generated cases:** `benchmark_cases100.csv` containing 100 sets of 100%, 80%, and 50% cases.
