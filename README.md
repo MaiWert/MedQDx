@@ -16,8 +16,6 @@ MedQDx is a cutting-edge benchmark that simulates realistic, partial clinical sc
    * [ Benchmark Creation](#benchmark-creation)
    * [ Benchmark Evaluation](#benchmark-evaluation)
 5. [ Getting Started](#getting-started)
-6. [ Presentation](#presentation)
-
 
 
 
