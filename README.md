@@ -2,10 +2,11 @@
 
 MedQDx is a cutting-edge benchmark designed to evaluate large language models (LLMs) in **interactive**, **uncertain** diagnostic scenarios. By simulating physician–patient dialogues with **partial clinical information**, MedQDx measures an LLM’s ability to:
 
-* 🔎 Ask **targeted questions**
+* 🔎 Ask targeted questions
 * 🔄 Adapt its line of inquiry
 * 🎯 Arrive at accurate diagnoses under uncertainty
 
+![image](https://github.com/user-attachments/assets/0a458462-814e-4504-8a66-ed0afd5f4a19)
 
 ## 📖 Table of Contents
 
