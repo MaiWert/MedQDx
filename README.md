@@ -40,7 +40,7 @@ The Jupyter notebook `MedQDx__EDA_and_Baseline.ipynb` covers:
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/<your‑username>/MedQDx.git
+git clone https://github.com/MaiWert/MedQDx.git
 cd MedQDx
 ```
 
