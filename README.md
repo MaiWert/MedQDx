@@ -39,7 +39,8 @@ By requiring multi-turn doctor–patient interactions, we push AI from passive r
 MedQDx/                                  # 🏠 Root folder
 ├── EDA and Baseline/                     # 🧪 Data exploration & baseline case generation
 │   ├── 📄 EDA & Baseline README.md
-│   └── 📓 MedQDx__EDA_and_Baseline.ipynb
+│   ├── 📓 MedQDx__EDA_and_Baseline.ipynb
+│   └── 📊 Patient cases.csv
 ├── Benchmark Creation/                   # 🎬 Simulate doc–patient dialogues
 │   ├── 📄 Benchmark Creation README.md
 │   ├── 📓 MedQDx_Benchmark_Creation.ipynb
